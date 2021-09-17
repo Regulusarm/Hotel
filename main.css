@@ -870,7 +870,6 @@ input {
   letter-spacing: 0em;
   text-align: left;
   width: 40%;
-  display: inline-block;
   margin: 0px;
   padding-top: 25px;
 }
@@ -945,5 +944,17 @@ input {
   border: 1px solid #CC9933;
   border-radius: 10px;
   text-align: center;
+  transition-property: background,color;
+  transition-duration: .3s;
+  transition-timing-function: ease;
 }
 
+.contacts__btn:hover, .contacts__btn:focus {
+  background-color: #CC9933;
+  color: #FFFFFF;
+}
+
+.contacts__btn:active {
+  background-color: #A47312;
+  color: #FFFFFF;
+}
