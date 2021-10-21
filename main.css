@@ -396,17 +396,6 @@ a {
   padding-bottom: 50px;
 }
 
-.services-boxes {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1169px;
-  height: 743px;
-  padding: 0px;
-  margin: 0px;
-}
-
 .services-item {
   width: 573px;
   height: 330px;
@@ -499,15 +488,6 @@ a {
   margin-bottom: 30px;
 }
 
-.ul-advantages {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1169px;
-  height: 595px;
-  padding: 0px;
-  margin: 0px;
-}
-
 .item-advantages {
   width: 275px;
   height: 275px;
@@ -538,22 +518,12 @@ a {
   margin-bottom: 30px;
 }
 
-.ul-accommodation {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .item-accommodation {
-  width: 374px;
   height: 440px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   margin-bottom: 23px;
-}
-
-.item-accommodation:not(:nth-child(3n)) {
-  margin-right: 23px;
 }
 
 .higher-item-accommodation {
